@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cheat terminal</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <section id="stick">
+        <a href="../../index.html"><h2>cheat <span>sheet</span></h2></a>
+        <nav id="headnav">
+            <ul>
+                <li id="terminal" style="background-color: #fff"><a href="../html/terminal.html" style="color: #000">terminal</a></li>
+                <li id="github"><a href="../html/gitHub.html">gitHub</a></li>
+                <li><a href="#">...</a></li>
+            </ul>
+        </nav>
+    </section>
+    <nav id="sidenav">
+        <ul>
+            <div></div>
+            <li><a href="#section1">print working directory</a></li>
+            <div></div>
+            <li><a href="#section2">list directory</a></li>
+            <div></div> 
+            <li><a href="#section3">list hidden directory</a></li>
+            <div></div>
+            <li><a href="#section4">change directory</a></li>
+            <div></div>
+            <li><a href="#section5">show content</a></li>
+            <div></div>
+            <li><a href="#section6">go back</a></li>
+            <div></div>
+            <li><a href="#section7">copy file</a></li>
+            <div></div>
+            <li><a href="#section8">move/rename file</a></li>
+            <div></div>
+            <li><a href="#section9">create file</a></li>
+            <div></div>
+            <li><a href="#section10">create directory</a></li>
+            <div></div>
+            <li><a href="#section11">remove file/ directory</a></li>
+            <div></div>
+        </ul>
+    </nav>
+    <main>
+        <section class=content id="section1">
+            <article>
+                <h2 id=h2>print working directory</h2>
+                <h3>pwd_ command</h3>
+                <p>This command will simply show you the current folder you're working in.</p>
+                <img src="../img/pwd.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section2">
+            <article>
+                <h2 id=h2>listing directory</h2>
+                <h3>ls_ command</h3>
+                <p>Use this command after navigating into a directory using the cd command to view the contents (files and directories) inside of the current directory. Use the argument -l (ls -l) to get even more information about each of the files, including the permissions, owner and date created.</p>
+                <img src="../img/ls_.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section3">
+            <article>
+                <h2 id=h2>listing hidden directory</h2>
+                <h3>ls -a_ command</h3>
+                <p>Use this command after navigating into a directory using the cd command to view the hidden contents (files and directories) inside of the current directory as well.</p>
+                <img src="../img/hidden.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section4">
+            <article>
+                <h2 id=h2>change directory</h2>
+                <h3>cd_ command</h3>
+                <p>This command will change the directory that you're currently working with in the Terminal in order to execute other commands on a different directory, view the contents of a different directory or open a file in a different directory. This is a very common command that will be used when working with the CLI. If you ever lose your place and which directory you're in, type pwd (print working directory) and press Return to echo the current path.</p>
+                <img src="../img/cd_.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section5">
+            <article>
+                <h2 id=h2>show content</h2>
+                <h3>cat_ command</h3>
+                <p>When browsing a directory, you may encounter a file that you wish to open. That's where the cat command comes in. Typing this command followed by a space and the filename will open the file.</p>
+                <img src="../img/cat_png.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section6">
+            <article>
+                <h2 id=h2>go back</h2>
+                <h3>cd .._ command</h3>
+                <p>When browsing a directory and you want to go back to the previous directory you can use the cd .. comand. You can also combine it with a /.. to go back even further.</p>
+                <img src="../img/back.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section7">
+            <article>
+                <h2 id=h2>copy file</h2>
+                <h3>cp_ command</h3>
+                <p>This command facilitates copying a file from one location to another, or just simply making a copy of the same file with a new name. When specifying the first argument, include the originating file that you wish to copy followed by a space and a full path, filename and extension of where you want the copy to be placed when the command is executed. The Terminal will return when the copy has been completed.</p>
+                <img src="../img/copy.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section8">
+            <article>
+                <h2 id=h2>move/rename file</h2>
+                <h3>mv_ command</h3>
+                <p>When you don't want to copy a file, but instead move it, use the same format of the cp command, but instead replace 'cp' with 'mv'. This will perform a file move from one location to another, removing the file from the original location and putting it into the new location.</p>
+                <img src="../img/move.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section9">
+            <article>
+                <h2 id=h2>create file</h2>
+                <h3>touch_ command</h3>
+                <p>The touch command allows you to create any type of file, but it's blank. After you create the blank file, you can open it in a text editor by typing open [filename].</p>
+                <img src="../img/rename.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section10">
+            <article>
+                <h2 id=h2>create directory</h2>
+                <h3>mkdir_ command</h3>
+                <p>This command will allow you to create a directory (folder) right from the CLI. When you need a place to store new files, just use this command to add a new directory in the current working directory, or specify a full path to the location where you want the new directory to be placed.</p>
+                <img src="../img/mkdir.png" alt="">
+            </article>
+        </section>
+        <section class=content id="section11">
+            <article>
+                <h2 id=h2>remove file/directory</h2>
+                <h3>rm_ command</h3>
+                <p>When you've created a folder that has the wrong name, you can easily use the mv command to rename it, or if you want to remove a directory altogether, use the rmdir command followed by the path to the directory.</p>
+                <img src="../img/rm.png" alt="">
+            </article>
+        </section>
+    </main>
+</body>
+</html>
